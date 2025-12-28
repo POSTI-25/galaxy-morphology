@@ -1,0 +1,44 @@
+# --- Bytecode and Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+# Common names for virtual envs
+venv/
+env/
+.venv/
+.env/
+venv.bak/
+
+# --- Distribution / Build ---
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+
+# --- Testing and Coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+
+# --- Type Checking (MyPY) ---
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# --- Environment Variables (Crucial for Security) ---
+.env
+.env.local
+.env.*.local
+
+# --- IDE / Editor Settings (Optional but recommended) ---
+.vscode/
+.idea/
+*.swp
